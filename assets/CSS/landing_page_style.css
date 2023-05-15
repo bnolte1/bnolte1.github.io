@@ -1,3 +1,11 @@
 html {
     background-color: lightgrey;
 }
+
+header {
+    background-color: slategray;
+}
+
+footer {
+    background-color: darkgrey;
+}
