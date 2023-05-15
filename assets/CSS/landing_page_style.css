@@ -4,8 +4,13 @@ html {
 
 header {
     background-color: slategray;
+    color: aliceblue;
+    text-align: center;
 }
 
 footer {
     background-color: darkgrey;
+    color: aliceblue;
+    text-align: center;
 }
+
