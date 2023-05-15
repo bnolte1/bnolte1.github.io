@@ -1,4 +1,3 @@
-# https://briannolte.github.io
 # https://bnolte1.github.io
     
 WCCI Portfolio
