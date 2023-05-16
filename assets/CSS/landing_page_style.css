@@ -1,16 +1,64 @@
 html {
-    background-color: lightgrey;
+    background-color: slategray;
 }
 
 header {
-    background-color: slategray;
+    background-color: purple;
     color: aliceblue;
     text-align: center;
 }
 
 footer {
-    background-color: darkgrey;
+    background-color: purple;
     color: aliceblue;
     text-align: center;
 }
 
+.links {
+    color: aliceblue;
+}
+
+.aboutMeDiv {
+    background-color: gray;
+    padding: 10px;
+}
+
+.centerText {
+    text-align: center;
+}
+
+.whiteText {
+    color: aliceblue;
+}
+
+.blueText {
+    color: blue;
+}
+
+#aboutParagraph {
+    width: 80%;
+}
+
+#aboutMeTitle {
+    text-align: center;
+}
+
+#contactInfo {
+    background-color: rgb(81, 81, 81);
+    padding: 5px;
+    width: 15%;
+}
+
+#skillList {
+    background-color: rgb(64, 63, 63);
+    width: 50%;
+}
+
+#skillTitle {
+    color: aqua;
+}
+
+#skillListText {
+    color: aquamarine;
+
+}
