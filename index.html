@@ -11,67 +11,70 @@
     <header> 
       <h1>Welcome to Brian Nolte's Portfolio Page</h1>
 
-     <!-- flexbox nav links -->
-      <nav class="navLinks">
-        <div class="flexContainer">
+<!-- Replace teh nav with flexbox for the title section links -->
+      <!-- <nav class="navLinks">
           <a class="links" href="#AboutMeSection">About Me</a>
           <a class="links" href="#ProjectsSection">My Projects</a>
-        </div> 
-      </nav>
+      </nav> -->
+
+      <div class="flexContainer">
+        <a class="links flexItem whiteText" href="#AboutMeSection">About Me</a>
+        <a class="links flexItem whiteText" href="#ProjectsSection">My Projects</a>
+      </div>
     </header>
 
 
-    <!-- 
-      div each sections?
-      flexbox each part of section as an item   
-    -->
-  <a name="AboutMeSection">
-    <div class="aboutMeDiv">
-      <section class="aboutMeSection">
-        <h2 id="aboutMeTitle">About Me</h2>
 
-        <img 
-          src="./assets/images/brianPic.jfif" 
-          alt=""
-          width="5%";
-          height="5%";
-        >
+    <a name="AboutMeSection">
+      <!-- <div class="aboutMeDiv flexContainer-AboutMe"> -->
+        <section class="aboutMeSection">
+          <div class="aboutMeDiv flexContainer-AboutMe">
+            <h2 id="aboutMeTitle">About Me</h2>
 
-        <p id="aboutParagraph">I have 10 years experience as a software developer. Recently I completed a 12 month
-          Software Engineering Back End Development program and am currently attempting to 
-          transition into a software engineer role.
-          <br>
-          Currently I am attending a 22 week Full Stack Developer program as a way to strengthen 
-          my current skills as well as add new skills.
-        </p>
-        
-        <div id="contactInfo">
-          <h3 class="centerText whiteText">contact info</h3> 
-            <p>
-              <h5>
-              <a class="blueText">email: b-nolte1@hotmail.com</a> 
+          <div>
+            <img 
+              src="./assets/images/brianPic.jfif" 
+              alt=""
+              width="5%";
+              height="5%";
+            >
+          </div>
+          <div>
+            <p id="aboutParagraph">I have 10 years experience as a software developer. Recently I completed a 12 month
+              Software Engineering Back End Development program and am currently attempting to 
+              transition into a software engineer role.
               <br>
-              <a class="links" href="https://linkedin.com/in/brian-nolte" target="_blank">LinkedIn</a>
-              <br>
-              <a class="links" href="https://bnolte1.github.io" target="_blank">GitHub</a>
-              </h5>
+              Currently I am attending a 22 week Full Stack Developer program as a way to strengthen 
+              my current skills as well as add new skills.
             </p>
-        </div>
+          </div> 
 
-        <div id="skillList">
-          <h3 id="skillTitle" class="centerText">Skills List</h3>
-            <p>
-              <div id="skillListText">
-                C,C++,C#,C#.net,VB,VBA,VB.net,PHP, HTML,CSS,Javascript,Javascript,<br>
-                SQL, MS SQL Server, MySQL, DynamoDB, AWS, Junit, Mockito, Dagger,<br>
-                Spring, Spring Boot, Agile Methodologies, SCRUM, Data Structures<br>
-              </div>
-            </p>
-          
-        </div>
-      </section>
-  </div>
-  </a>
+            <div class="flexItemBox" id="contactInfo">
+              <h3 class="centerText whiteText">contact info</h3> 
+                <p>
+                  <h5>
+                  <a class="blueText">email: b-nolte1@hotmail.com</a> 
+                  <br>
+                  <a class="links" href="https://linkedin.com/in/brian-nolte" target="_blank">LinkedIn</a>
+                  <br>
+                  <a class="links" href="https://github.com/bnolte1" target="_blank">GitHub</a>
+                  </h5>
+                </p>
+            </div>
+
+            <div class="centerText flexItemBox" id="skillList">
+              <h3 id="skillTitle" class="centerText">Skills List</h3>
+                <p>
+                  <div id="skillListText">
+                    C,C++,C#,C#.net,VB,VBA,VB.net,PHP, HTML,CSS,Javascript,Javascript,<br>
+                    SQL, MS SQL Server, MySQL, DynamoDB, AWS, Junit, Mockito, Dagger,<br>
+                    Spring, Spring Boot, Agile Methodologies, SCRUM, Data Structures<br>
+                  </div>
+                </p>
+            </div>
+          </div>
+        </section>
+    </a>
 
   <a name="ProjectsSection">
     <div>

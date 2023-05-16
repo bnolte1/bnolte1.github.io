@@ -1,8 +1,30 @@
 .flexContainer{
-  display: "flex";
+  display: flex;
   background-color: purple;
+  justify-content: center;
+  align-items: baseline;
 }
 
 .flexItem {
+  display: flex;
   flex-wrap: wrap;
+  background-color: rgb(133, 14, 109);
+  border-style: outset;
+  border-color: rgb(115, 8, 94);
+  padding: 5px;
+}
+
+.flexContainer-AboutMe{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  background-color: rgb(91, 92, 91);
+}
+
+.flexItemBox {
+  display: flex;
+  width: 20%;
+  flex-wrap: wrap;
+  border-style:groove;
+  padding: 5px;
 }
