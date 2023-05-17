@@ -78,5 +78,13 @@ footer {
     width: 20%;
     border-style: groove;
     border-color: aliceblue;
+}
 
+#imageDiv {
+    width: 20%;
+    height: 20%;
+    background-color: black;
+    border-style: ridge;
+    border-color: gold;
+    border-width: 2px;
 }
