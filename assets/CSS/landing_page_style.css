@@ -45,8 +45,9 @@ footer {
     color: blue;
 }
 
-#aboutParagraph {
+#aboutMeParagraph {
     width: 80%;
+    margin-left: 15%;
 }
 
 #aboutMeTitle {
