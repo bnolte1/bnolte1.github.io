@@ -65,4 +65,9 @@ footer {
 
 #ele-jelly {
     background-color: grey;
+    padding: 5px;
+    width: 20%;
+    border-style: groove;
+    border-color: aliceblue;
+
 }
