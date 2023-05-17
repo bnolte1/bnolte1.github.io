@@ -1,11 +1,18 @@
 html {
     background-color: slategray;
 }
+body {
+    margin: 0px;
+}
 
 header {
     background-color: purple;
     color: aliceblue;
     text-align: center;
+}
+
+.headerH1 {
+    margin: 0px;
 }
 
 footer {
