@@ -1,8 +1,12 @@
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(10,10%);
+    grid-template-columns: repeat(10,2fr);
     grid-template-rows: repeat(10,2fr);
     background-color: grey;
+  }
+
+  .item {
+    background-color: red;
   }
 
   .item1 {
