@@ -88,5 +88,5 @@ footer {
     border-style: ridge;
     border-color: gold;
     border-width: 2px;
-    float: left;
+    margin: 0px;
 }
