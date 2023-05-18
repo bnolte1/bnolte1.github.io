@@ -40,3 +40,9 @@
     height: 75%;
     object-fit: fill;
   }
+
+  #grid-item-aboutMeParagraph {
+    grid-column-start: 4;
+    grid-column-end: 10;
+    grid-row-start: 2;
+  }
