@@ -1,7 +1,7 @@
 .grid-container {
     display: grid;
     grid-template-columns: repeat(10, 10fr);
-    /* grid-template-rows: repeat(5, 1fr); */
+    grid-template-rows: repeat(5, 10fr);
     background-color: slategrey;
     margin: 0;
     padding: 0;
