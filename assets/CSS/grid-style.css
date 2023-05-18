@@ -36,6 +36,7 @@
     grid-row-start: 2;
     grid-column-end: 3;
     grid-row-end: 4;
+    object-fit: cover;
   }
 
   #grid-item-aboutMeParagraph {
