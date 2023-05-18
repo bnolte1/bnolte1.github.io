@@ -1,6 +1,6 @@
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(10, 10%);
+    grid-template-columns: repeat(10, 10fr);
     grid-template-rows: repeat(5, auto);
     background-color: yellow;
     margin: 0;
