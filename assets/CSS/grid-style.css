@@ -1,7 +1,7 @@
 .grid-container {
     display: grid;
     grid-template-columns: repeat(10, 10fr);
-    grid-template-rows: repeat(5, 10fr);
+    grid-template-rows: repeat(5, 1fr);
     background-color: slategrey;
     margin: 0;
     padding: 0;
@@ -11,6 +11,9 @@
   .item {
     justify-content: center;
     background-color: red;
+    border-style: solid;
+    border-color: yellow;
+    border-size:4px;
   }
 
   #item1 {
@@ -32,16 +35,32 @@
   }
 
   #grid-item-picture {
+    display:flex;
     grid-column-start: 1;
     grid-row-start: 2;
-    grid-column-end: 3;
-    grid-row-end: 4;
-    object-fit: cover;
   }
 
   #grid-item-aboutMeParagraph {
-    grid-column-start: 4;
-    grid-column-end: 10;
+    display: flex;
+    grid-column-start: 2;
+    grid-column-end:10;
     grid-row-start: 2;
-    padding: 10px;
   }
+
+#itemA{
+display: flex;
+grid-row-start:5;
+grid-column-start:1;
+}
+
+#item3 {
+display: flex;
+grid-row-start:3;
+grid-column-start:4;
+}    
+
+img{
+height:100%;
+width:100%;
+object-fit: cover;
+}
