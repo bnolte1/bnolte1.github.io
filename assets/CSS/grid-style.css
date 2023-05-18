@@ -19,6 +19,11 @@
     grid-column-end: 3;
   }
 
+  #item2 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+  }
+
   #grid-item-title {
     grid-column-start: 5;
     grid-column-end: 6;  
