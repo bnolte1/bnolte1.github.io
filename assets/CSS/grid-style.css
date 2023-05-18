@@ -9,11 +9,11 @@
   }
 
   .item {
-    display:flex;
+    justify-content: center;
     background-color: red;
   }
 
-  .item1 {
+  #item1 {
     grid-column-start: 1;
     grid-column-end: 3;
   }
