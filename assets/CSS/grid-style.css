@@ -28,9 +28,15 @@
     grid-row-start: 4;
   }
 
-  #grid-item-title {
-    grid-column-start: 5;
-    grid-column-end: 6;
+  #itemA{
+    display: flex;
+    grid-row-start:2;
+    grid-column-start:1;
+    }
+
+  #grid-item-aboutMe-title {
+    grid-column-start: 1;
+    grid-column-end: 11;
     grid-row-start: 1;
   }
 
@@ -47,17 +53,13 @@
     grid-row-start: 2;
   }
 
-#itemA{
-display: flex;
-grid-row-start:5;
-grid-column-start:1;
-}
-
 #itemSkills {
 display: flex;
+
 grid-row-start:3;
 grid-column-start:5;
 grid-column-end: 10;
+padding: 5px;
 }    
 
 img{
@@ -72,4 +74,76 @@ object-fit: cover;
   grid-row-end: 5;
   grid-column-start: 2;
   grid-column-end: 4;
+}
+
+
+.grid-container-Projects {
+  display: grid;
+  grid-template-columns: repeat(10, 10fr);
+  grid-template-rows: repeat(10, 1fr);
+  background-color: slategrey;
+  margin: 0;
+  padding: 0;
+  grid-gap: 10px;
+  background-color: rgb(72, 72, 72);
+}
+
+#grid-item-projects-title{
+  grid-column-start: 1;
+  grid-column-end: 11;
+  grid-row-start: 1;
+}
+
+  #ele-jelly-container {
+    display: flex;
+    padding: 10px;
+  }
+
+  #ele-jelly {
+    background-color: grey;
+    padding: 5px;
+    border-style: groove;
+    border-color: aliceblue;
+    grid-column-start: 8;
+    grid-column-end: 10;
+    grid-row-start: 3;
+    grid-row-end: 8;
+    align-content: center;
+    text-align: center;
+}
+
+#project1-container {
+  display: flex;
+  padding: 10px;
+}
+
+#project1 {
+  background-color: grey;
+  padding: 5px;
+  border-style: groove;
+  border-color: aliceblue;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 8;
+  align-content: center;
+  text-align: center;
+}
+
+#project2-container {
+  display: flex;
+  padding: 10px;
+}
+
+#project2 {
+  background-color: grey;
+  padding: 5px;
+  border-style: groove;
+  border-color: aliceblue;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 6;
+  grid-row-end: 8;
+  align-content: center;
+  text-align: center;
 }

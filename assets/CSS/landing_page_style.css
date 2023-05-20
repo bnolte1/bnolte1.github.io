@@ -47,6 +47,8 @@ footer {
 
 #aboutMeTitle {
     text-align: center;
+    background-color: rgb(87, 26, 145);
+    color: aliceblue;
 }
 
 #contactInfo {
@@ -61,20 +63,11 @@ footer {
 }
 
 #skillTitle {
-    color: aqua;
+    font-style: oblique;
 }
 
 #skillListText {
-    color: aquamarine;
-
-}
-
-#ele-jelly {
-    background-color: grey;
-    padding: 5px;
-    width: 20%;
-    border-style: groove;
-    border-color: aliceblue;
+    font-style: oblique;
 }
 
 #imageDiv {
@@ -85,4 +78,10 @@ footer {
     border-color: gold;
     border-width: 2px;
     margin-left: 0px;
+}
+
+#ProjectsTitle {
+    text-align: center;
+    background-color: rgb(87, 26, 145);
+    color: aliceblue;
 }
