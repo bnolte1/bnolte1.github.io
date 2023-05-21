@@ -28,7 +28,6 @@ footer {
 
 .aboutMeDiv {
     background-color: gray;
-    /* padding: 10px; */
     width: 100%;
     height: auto;
 }
@@ -67,6 +66,8 @@ footer {
 }
 
 #skillListText {
+    margin: 5px;
+    flex-wrap: wrap;
     font-style: oblique;
 }
 

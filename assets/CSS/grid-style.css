@@ -9,8 +9,10 @@
   }
 
   .item {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    background-color: red;
+    background-color: black;
     border-style: solid;
     border-color: yellow;
     border-width:4px;
@@ -48,14 +50,17 @@
 
   #grid-item-aboutMeParagraph {
     display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
     grid-column-start: 2;
     grid-column-end:10;
     grid-row-start: 2;
+    color: whitesmoke;
   }
 
 #itemSkills {
 display: flex;
-
+flex-wrap: wrap;
 grid-row-start:3;
 grid-column-start:5;
 grid-column-end: 10;
@@ -70,6 +75,7 @@ object-fit: cover;
 
 #itemContactInfo{
   display: flex;
+  flex-wrap: wrap;
   grid-row-start: 3;
   grid-row-end: 5;
   grid-column-start: 2;
@@ -94,12 +100,14 @@ object-fit: cover;
 
 #project1-container {
   display: flex;
+  flex-wrap: wrap;
   padding: 10px;
 }
 
 #project1 {
   background-color: grey;
   padding: 5px;
+  flex-wrap: wrap;
   border-style: groove;
   border-color: aliceblue;
   grid-column-start: 2;
@@ -112,12 +120,14 @@ object-fit: cover;
 
 #project2-container {
   display: flex;
+  flex-wrap: wrap;
   padding: 10px;
 }
 
 #project2 {
   background-color: grey;
   padding: 5px;
+  flex-wrap: wrap;
   border-style: groove;
   border-color: aliceblue;
   grid-column-start: 5;
