@@ -8,60 +8,61 @@
     grid-gap: 10px;
   }
 
-  .item {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: black;
-    border-style: solid;
-    border-color: yellow;
-    border-width:4px;
+.item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: black;
+  border-style: solid;
+  border-color: yellow;
+  border-width:4px;
+}
+
+#item1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+}
+
+#item2 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 4;
+}
+
+#itemA{
+  display: flex;
+  grid-row-start:2;
+  grid-column-start:1;
   }
 
-  #item1 {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 3;
-  }
+#grid-item-aboutMe-title {
+  grid-column-start: 1;
+  grid-column-end: 11;
+  grid-row-start: 1;
+}
 
-  #item2 {
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 4;
-  }
+#grid-item-picture {
+  display:flex;
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
 
-  #itemA{
-    display: flex;
-    grid-row-start:2;
-    grid-column-start:1;
-    }
-
-  #grid-item-aboutMe-title {
-    grid-column-start: 1;
-    grid-column-end: 11;
-    grid-row-start: 1;
-  }
-
-  #grid-item-picture {
-    display:flex;
-    grid-column-start: 1;
-    grid-row-start: 2;
-  }
-
-  #grid-item-aboutMeParagraph {
-    display: flex;
-    padding: 5px;
-    flex-wrap: wrap;
-    grid-column-start: 2;
-    grid-column-end:10;
-    grid-row-start: 2;
-    color: whitesmoke;
-  }
+#grid-item-aboutMeParagraph {
+  display: flex;
+  padding: 5px;
+  flex-wrap: wrap;
+  grid-column-start: 2;
+  grid-column-end:10;
+  grid-row-start: 2;
+  color: whitesmoke;
+}
 
 #itemSkills {
 display: flex;
 flex-wrap: wrap;
 grid-row-start:3;
+grid-row-end: 6;
 grid-column-start:5;
 grid-column-end: 10;
 padding: 5px;
@@ -77,9 +78,14 @@ object-fit: cover;
   display: flex;
   flex-wrap: wrap;
   grid-row-start: 3;
-  grid-row-end: 5;
+  grid-row-end: 6;
   grid-column-start: 2;
   grid-column-end: 4;
+}
+
+.linkImage{
+  width: 25%;
+  height: 25%;
 }
 
 .grid-container-Projects {
@@ -155,3 +161,4 @@ object-fit: cover;
   align-content: center;
   text-align: center;
 }
+
